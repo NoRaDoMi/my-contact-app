@@ -1,12 +1,14 @@
 package vn.hcmus.fit.mycontact.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import vn.hcmus.fit.mycontact.entity.Contact;
 import vn.hcmus.fit.mycontact.repository.ContactRepository;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class ContactServiceImpl implements ContactService{
     @Autowired
     private ContactRepository contactRepository;
