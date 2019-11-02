@@ -3,7 +3,7 @@
 <head th:replace="layout::head"></head>
 <body>
 <nav th:replace="layout::header"></nav>
-<div class="container" id="main-content">
+<div class="container mt-4" id="main-content">
     <div class="row">
         <div class="col-6 no-padding">
             <form class="form-inline" action="#" th:action="@{/contact/search}" method="get">
@@ -20,12 +20,18 @@
         </div>
 
         <div class="col-6 no-padding">
-            <a href="#" class="btn btn-success float-right">
+            <a href="#" th:href="@{/contact/add}" class="btn btn-success float-right">
                 <i class="fa fa-plus-square"></i> New contact
             </a>
         </div>
     </div>
     <div class="row mt-4">
+        <div th:if="${successMessage}" class="alert alert-success alert-dismissible fade show" role="alert">
+            <span th:text="${successMessage}"></span>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
         <!--Kiểm tra xem danh sách contacts ở DB có rỗng không-->
         <th:block th:if="${#lists.isEmpty(contacts)}">
             <h5>No contacts</h5>
