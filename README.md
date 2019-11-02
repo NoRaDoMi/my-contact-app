@@ -17,12 +17,11 @@
 #### 1.2. Các giao diện
 
 `list.html`: màn hình danh sách liên hệ
-
-[![MyContact list page](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/efuc16uaqt_201901272249.png)](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/efuc16uaqt_201901272249.png)
+![list](https://user-images.githubusercontent.com/38036797/68074171-cc0aed00-fdca-11e9-8003-8e24b4569945.PNG)
 
 `form.html`: màn hình thêm/sửa liên hệ
+![form](https://user-images.githubusercontent.com/38036797/68074174-d1683780-fdca-11e9-8a15-5f3209f231d8.PNG)
 
-[![MyContact form page](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/yyupd68h49_201901272257.png)](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/yyupd68h49_201901272257.png)
 
 #### 1.3. Cơ sở dữ liệu
 
